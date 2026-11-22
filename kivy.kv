@@ -1,0 +1,20 @@
+<MainScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Label:
+            text: "Мое первое приложение"
+            
+            bold: True
+
+        Label:
+            id: status
+            text: "Нажмите на кнопку"
+            font_size: 20
+
+        Button:
+            text: "Кнопка"
+            font_size: 18
+            size_hint_y: None
+            height: 100
+            on_press: root.test_button()

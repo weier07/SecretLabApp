@@ -1,0 +1,24 @@
+[app]
+
+title = Секретная лаборатория
+package.name = secretlab
+package.domain = org.student
+
+source.dir = .
+source.include_exts = py,png,jpg,jpeg,kv,atlas,json
+
+version = 0.1
+
+requirements = python3,kivy
+
+orientation = portrait
+fullscreen = 0
+
+icon.filename = %(source.dir)s/icon.png
+android.archs = arm64-v8a
+android.accept_sdk_license = True
+
+[buildozer]
+
+log_level = 2
+warn_on_root = 1
