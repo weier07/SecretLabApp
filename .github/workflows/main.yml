@@ -1,3 +1,4 @@
+
 name: Build Android APK
 
 on:
@@ -12,7 +13,7 @@ jobs:
 
     steps:
       - name: Загрузка файлов проекта
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Создание папки кэша
         run: mkdir -p .buildozer-cache
