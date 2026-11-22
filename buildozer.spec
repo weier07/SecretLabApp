@@ -18,6 +18,10 @@ icon.filename = %(source.dir)s/icon.png
 android.archs = arm64-v8a
 android.accept_sdk_license = True
 
+p4a.branch = develop
+android.api = 36
+android.ndk = 29
+
 [buildozer]
 
 log_level = 2
