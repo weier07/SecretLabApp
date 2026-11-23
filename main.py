@@ -58,6 +58,6 @@ class SecretLabApp(App):
         cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, login TEXT UNIQUE, password TEXT)')
         conn.commit()
         conn.close()
-        return Builder.load_file('secretlab.kv')
+        return Builder.load_file('kivy.kv')
 
 SecretLabApp().run()
